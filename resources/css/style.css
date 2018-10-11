@@ -1,0 +1,127 @@
+header {
+  display: flex;
+      align-items: center;
+      position: fixed;
+      z-index: 3;
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid black;
+      background-color: white;
+      font-family: Verdana;
+      font-size: 14px;
+      font-weight: bold;
+}
+nav span {
+  display:inline-block;
+  padding: 20px;
+}
+ div.content{
+  display:flex;
+  padding-top: 116px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  justify-content: center;
+
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.large  {
+  width: 630px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.medium{
+  width: 300px;
+  margin-right: 40px;
+}
+.small{
+  width: 240px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  border: 1px solid black;
+  width: 70%;
+  flex-grow: 1;
+}
+.mainnews{
+  font-size: 40px;
+  height: 150px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+.secondimage{
+  font-size: 30px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+.hipster{
+font-size: 30px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+.cat{
+  font-size: 30px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+.mainnews, .secondimage, .hipster, .cat {
+  font-family: Georgia;
+  color: white;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+  align-items: center;
+}
+.imgcontent{
+  display: flex;
+  height: 300px;
+}
+.narrative{
+  height: 250px;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 20px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.newsbites{
+  display: flex;
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+
+ flex-direction: column;
+}
+.line{
+  border-bottom: 1px solid black;
+  padding:5px;
+}
+footer{
+  display: flex;
+  background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+ font-size: 12px;
+ height: 300px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+
+}
+.mytimes {
+  font-family: Georgia;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+}
