@@ -15,7 +15,6 @@ header {
 }
 nav span {
   display:inline-block;
-  padding: 30px;
   padding-right: 50px;
 }
  div.content{
@@ -50,9 +49,9 @@ nav span {
   display: flex;
   align-items: center;
   color: MediumAquamarine;
-  width: 70%;
+  width: 20%;
   flex-grow: 1;
-  height: 80px;
+  height: 50px;
   margin:10px;
   padding-left: 20px;
 }
